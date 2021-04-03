@@ -12,6 +12,9 @@ def game():
 
     part_a = random.choice(data)
     part_b = random.choice(data)
+    
+    while part_a == part_a:
+    part_b = random.choice(data)
 
     flag = True
 
@@ -31,7 +34,10 @@ def game():
             score += 1
             part_a = part_b
             part_b = random.choice(data)
-
+              
+            while part_a == part_a:
+            part_b = random.choice(data)  
+              
         else:
             print(f"\nSorry that's wrong ☹\nYour final score: {score}")
             break
