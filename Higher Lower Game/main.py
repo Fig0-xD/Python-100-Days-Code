@@ -22,7 +22,7 @@ def game():
         print(art.vs)
         print(f"Against B: {part_b['name']}, a {part_b['description']}, from {part_b['country']}.")
 
-        print(f"\nFollower count A: {part_a['follower_count']}\nFollower count B: {part_b['follower_count']}")
+        #print(f"\nFollower count A: {part_a['follower_count']}\nFollower count B: {part_b['follower_count']}")
 
         user_val = input("\nWho has more followers? Type 'A' or 'B': ").lower()
 
